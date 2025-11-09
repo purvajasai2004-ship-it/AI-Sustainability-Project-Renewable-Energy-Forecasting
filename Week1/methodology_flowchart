@@ -1,0 +1,64 @@
+           ┌────────────────────────────────────────────┐
+           │               START                        │
+           └────────────────────────────────────────────┘
+                               │
+                               ▼
+           ┌────────────────────────────────────────────┐
+           │ 1. DATA COLLECTION                         │
+           │ • Import renewable energy dataset (Kaggle)  │
+           │ • Includes Solar/Wind power + weather data  │
+           └────────────────────────────────────────────┘
+                               │
+                               ▼
+           ┌────────────────────────────────────────────┐
+           │ 2. DATA PREPROCESSING                      │
+           │ • Handle missing values & outliers          │
+           │ • Convert date/time into useful features    │
+           │ • Normalize & split dataset (train/test)    │
+           └────────────────────────────────────────────┘
+                               │
+                               ▼
+           ┌────────────────────────────────────────────┐
+           │ 3. EXPLORATORY DATA ANALYSIS (EDA)         │
+           │ • Visualize patterns (time series plots)    │
+           │ • Correlation heatmap (weather vs energy)   │
+           │ • Identify seasonal & daily trends          │
+           └────────────────────────────────────────────┘
+                               │
+                               ▼
+           ┌────────────────────────────────────────────┐
+           │ 4. MODEL DEVELOPMENT                       │
+           │ • Build AI models: LSTM / GRU / Prophet     │
+           │ • Train on historical energy + weather data │
+           │ • Predict future energy generation          │
+           └────────────────────────────────────────────┘
+                               │
+                               ▼
+           ┌────────────────────────────────────────────┐
+           │ 5. MODEL EVALUATION                        │
+           │ • Use MAE, RMSE, R² to check accuracy       │
+           │ • Compare multiple models                   │
+           │ • Select best performing model              │
+           └────────────────────────────────────────────┘
+                               │
+                               ▼
+           ┌────────────────────────────────────────────┐
+           │ 6. OPTIMIZATION MODULE (Energy Planning)    │
+           │ • Use predicted output for energy storage   │
+           │ • Plan grid usage and backup requirements   │
+           │ • Suggest resource allocation               │
+           └────────────────────────────────────────────┘
+                               │
+                               ▼
+           ┌────────────────────────────────────────────┐
+           │ 7. VISUALIZATION & DASHBOARD               │
+           │ • Build Streamlit web app                   │
+           │ • Show predictions (interactive charts)     │
+           │ • Display recommendations (daily insights)  │
+           └────────────────────────────────────────────┘
+                               │
+                               ▼
+           ┌────────────────────────────────────────────┐
+           │                  END                       │
+           └────────────────────────────────────────────┘
+
